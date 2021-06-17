@@ -13,8 +13,8 @@ I would like to be able to leave a comment
 
 Tasks:
 - [x ] Write request spec
-- [ ] Add comment model
-- [ ] Comment needs to contain a body
+- [x ] Add comment model
+- [x ] Comment needs to contain a body
 - [ ] Add association between comment and article
 
 
