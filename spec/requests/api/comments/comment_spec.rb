@@ -22,14 +22,12 @@ RSpec.describe 'POST api/articles/comments', type: :request do
       post "/api/articles/#{article.id}/comments"
     end
 
-    it "is expected to respond with a HTTP status 422" do
-      expect(response).to have_http_status 422  
+    it 'is expected to respond with a HTTP status 422' do
+      expect(response).to have_http_status 422
     end
 
-    it "is expected to return and error message" do
+    it 'is expected to return and error message' do
       expect(response_json['error_message']).to eq 'Your comment was not created'
     end
-    
-    
   end
 end

@@ -15,7 +15,7 @@ Tasks:
 - [x ] Write request spec
 - [x ] Add comment model
 - [x ] Comment needs to contain a body
-- [ ] Add association between comment and article
+- [ x] Add association between comment and article
 
 
 ## Level 2
@@ -27,10 +27,10 @@ I would like to be able to leave a comment
 ``` 
 
 Tasks:
-- [ ] Write request spec
-- [ ] Add comment model
-- [ ] Comment needs to contain a body
-- [ ] Add association between comment and article
+- [ x] Write request spec
+- [ x] Add comment model
+- [ x] Comment needs to contain a body
+- [ x] Add association between comment and article
 - [ ] Only authenticated user can comment on an article
 - [ ] Add association between comment and user      
 
